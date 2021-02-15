@@ -1,0 +1,10 @@
+pip3 install Django==2.2   (install django 2.2)
+pip3 install djangorestframework==3.9.2   (install v3.9.2 of rest framework)
+
+django-admin.py startproject profiles_project .   (create project)
+python3 manage.py startapp profiles_api     (create an app)
+
+python3 manage.py runserver            (start the server  -  then browse to the given ur)
+
+python3 manage.py makemigrations profiles_api   (create migrations file for the user profile model)
+python3 manage.py migrate   (run all the migrations in the project)
